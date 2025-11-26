@@ -3,19 +3,21 @@
 A hardware implementation of the popular Wordle game, built entirely in Verilog for the Altera DE1-SoC FPGA. Players type guesses using a PS/2 keyboard while the VGA display renders letters, tiles, and colours in real time.
 
 ## Table of Contents
-- Overview
-- Features
-- Hardware Requirements
-- Game Controls
-- File Structure
-- Module Documentation
-- Display System
-- Game Logic
-- Technical Details
-- Customization
-- Demo Gallery
-- Future Improvements
-- Tools Used
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Hardware Requirements](#hardware-requirements)
+- [Game Controls](#game-controls)
+- [File Structure](#file-structure)
+- [Module Documentation](#module-documentation)
+- [Display System](#display-system)
+- [Game Logic](#game-logic)
+- [How to Build and Run](#how-to-build-and-run)
+- [Technical Details](#technical-details)
+- [Customization](#customization)
+- [Demo Gallery](#demo-gallery)
+- [Tools Used](#tools-used)
+- [Future Improvements](#future-improvements)
 
 ## Overview
 This project recreates the iconic daily five-letter guessing game directly on FPGA hardware. All rendering, logic, and input handling is implemented in Verilog using the digital systems concepts learned throughout ECE241.
