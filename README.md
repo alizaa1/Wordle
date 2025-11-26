@@ -1,7 +1,7 @@
 # Wordle
 
-A hardware-implemented version of Wordle, built from scratch on the DE1-SoC FPGA using Verilog.
-You type letters on a PS/2 keyboard, and the FPGA draws everything including tiles, letters, colors, win/lose screens, directly to a 640×480 VGA display.
+A hardware-implemented recreation of Wordle, built entirely on the DE1-SoC FPGA using Verilog.
+Users type guesses via a PS/2 keyboard, and the FPGA renders all letters, tiles, and game states directly to a 640×480 VGA display.
 
 ✨ Project Highlights
 
