@@ -3,7 +3,7 @@
 🅰️ Wordle on FPGA — ECE241 Digital Systems Project
 
 A hardware-implemented version of Wordle, built from scratch on the DE1-SoC FPGA using Verilog.
-You type letters on a PS/2 keyboard, and the FPGA draws everything , tiles, letters, colors, win/lose screens, directly to a 640×480 VGA display.
+You type letters on a PS/2 keyboard, and the FPGA draws everything including tiles, letters, colors, win/lose screens, directly to a 640×480 VGA display.
 
 ✨ Project Highlights
 
