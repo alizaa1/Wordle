@@ -51,17 +51,20 @@ Users type guesses via a PS/2 keyboard, and the FPGA renders all letters, tiles,
 🎥 Demo Gallery
 
 Wordle grid on VGA
+
 Typed letters appearing in real time
+
 Correct color feedback
+
 Win screen
 
 🗂 Repo Contents
 
 This repo contains:
-Block diagrams
-Presentation slides
-Project proposal
-Demo images/videos
+- Block diagrams
+- Presentation slides
+- Project proposal
+- Demo images/videos
 
 🧰 Tools Used
 - Verilog HDL
