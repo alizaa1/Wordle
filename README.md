@@ -16,11 +16,11 @@ Users type guesses via a PS/2 keyboard, and the FPGA renders all letters, tiles,
 🧠 System Architecture
 
 🎨 Display System (VGA)
-- drawLetter — pulls pixels from a sprite ROM and draws each letter
-- drawTileColor — fills grid tiles with the correct colors
-- wordleDisplay — grid layout, coordinates, and plot timing
-- Display FSM — orchestrates drawing order
-- Sprite Sheet ROM — custom-designed letters
+- drawLetter - pulls pixels from a sprite ROM and draws each letter
+- drawTileColor - fills grid tiles with the correct colors
+- wordleDisplay - grid layout, coordinates, and plot timing
+- Display FSM - orchestrates drawing order
+- Sprite Sheet ROM - custom-designed letters
 
 🎮 Game Logic
 
