@@ -9,7 +9,6 @@ A hardware implementation of the popular Wordle game, built entirely in Verilog 
 - [Hardware Requirements](#hardware-requirements)
 - [Game Controls](#game-controls)
 - [File Structure](#file-structure)
-- [Module Documentation](#module-documentation)
 - [Display System](#display-system)
 - [Game Logic](#game-logic)
 - [How to Build and Run](#how-to-build-and-run)
