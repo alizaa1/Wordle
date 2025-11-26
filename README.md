@@ -130,7 +130,7 @@ You can modify:
 - Win/lose messages  
 - Keyboard mappings  
 
-## 🎥 Demo Gallery
+## Demo Gallery
 ![Wordle](https://github.com/user-attachments/assets/5a6bd6fc-14f9-4e45-80dc-5c42cfc4b1e8)
 
 Link to slides: https://docs.google.com/presentation/d/e/2PACX-1vTQccX7mRjS4KjdPMT4b_SZh7facKOJLdeaH-8s9pCPjQMyzwNOgUMMaQmyXP3Hhp4GLKjpc4OQt3di/pub?start=false&loop=false&delayms=3000
