@@ -1,0 +1,31 @@
+# Verilog / HDL files (never upload)
+*.v
+*.sv
+*.vh
+
+# Memory and image assets
+*.mif
+*.bmp
+*.png
+
+# Quartus project files
+db/
+output_files/
+incremental_db/
+greybox_tmp/
+*.qpf
+*.qsf
+*.sof
+
+# Simulation outputs
+simulation/
+modelsim.ini
+wave.do
+
+# VSCode settings
+.vscode/
+
+# Build artifacts
+*.rpt
+*.summary
+*.log
