@@ -1,8 +1,8 @@
 # FPGA Wordle
 
-A hardware implementation of the popular Wordle game, built entirely in Verilog for the Altera DE1-SoC FPGA. Players type guesses using a PS/2 keyboard while the VGA display renders letters, tiles, and colours in real time.
+A hardware implementation of the popular **Wordle** game, built entirely in Verilog for the **Altera DE1-SoC FPGA**. Players type guesses using a PS/2 keyboard while the VGA display renders letters, tiles, and colours in real time.
+You can **play the game on your own DE1-SoC board** by following the instructions in the **“Test It Out!”** section below.
 
-## Table of Contents
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -14,6 +14,7 @@ A hardware implementation of the popular Wordle game, built entirely in Verilog 
 - [Technical Details](#technical-details)
 - [Customization](#customization)
 - [Demo Gallery](#demo-gallery)
+- [Test It Out!](#test-it-out!)
 - [Tools Used](#tools-used)
 - [Future Improvements](#future-improvements)
 
@@ -133,6 +134,52 @@ You can modify:
 ![Wordle](https://github.com/user-attachments/assets/5a6bd6fc-14f9-4e45-80dc-5c42cfc4b1e8)
 
 Link to slides: https://docs.google.com/presentation/d/e/2PACX-1vTQccX7mRjS4KjdPMT4b_SZh7facKOJLdeaH-8s9pCPjQMyzwNOgUMMaQmyXP3Hhp4GLKjpc4OQt3di/pub?start=false&loop=false&delayms=3000
+
+## Test It Out!
+You can play the Wordle FPGA game directly on a DE1-SoC board using the pre-compiled **`.sof` bitstream** — no compiling needed.
+
+## ✅ Requirements
+- **DE1-SoC FPGA board**
+- **VGA cable + monitor**
+- **PS/2 keyboard**
+- **USB-Blaster cable**
+- **Intel Quartus Programmer** (included with Quartus Lite)
+
+## 📥 1. Download the Bitstream
+Download the file: wordletoplevel.sof
+## 🖥️ 2. Open Quartus Programmer
+
+1. Open **Quartus Lite**
+2. Go to **Tools → Programmer**
+3. Set hardware to **USB-Blaster**
+4. Click **Add File…**
+5. Select `wordletoplevel.sof`
+
+## 🔌 3. Program the FPGA
+
+1. Check the box next to the `.sof` file
+2. Ensure **Mode: JTAG**
+3. Click **Start**
+
+The progress bar will turn green when programming is complete.
+
+## 🎮 4. Connect Display + Keyboard
+
+- Plug in a **VGA monitor**
+- Plug in a **PS/2 keyboard**
+- Press **KEY0** (reset)
+- The Wordle game will appear on the VGA monitor
+- Start playing!
+
+## ⌨️ Controls
+
+| Action | Key |
+|--------|-----|
+| Type letters | A–Z |
+| Submit guess | **ENTER** |
+| Delete letter | **BACKSPACE** |
+| Restart game | **KEY0** on DE1-SoC |
+
 
 ## Tools Used
 - Verilog HDL
