@@ -14,7 +14,7 @@ You can **play the game on your own DE1-SoC board** by following the instruction
 - [Technical Details](#technical-details)
 - [Customization](#customization)
 - [Demo Gallery](#demo-gallery)
-- [Test It Out!](#test-it-out!)
+- [Test It Out!](#test-it-out)
 - [Tools Used](#tools-used)
 - [Future Improvements](#future-improvements)
 
